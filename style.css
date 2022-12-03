@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,500;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color:  hsl(30, 38%, 92%);
+}
+.container {
+    margin: auto;
+    margin-top: 15%;
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+h3 {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+p {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.small {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+h1 {
+    color: hsl(212, 21%, 14%);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.big {
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+button {
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.icon {
+    margin-right: 10px;
+}
+button:hover {
+    background-color: hsl(158, 40%, 20%);
+    color: hsl(0, 30%, 100%);
+    cursor: pointer;
+}
+.text {
+   padding-left: 90px;
+   padding-top: 20px;
+   padding-right: 20px;
+    
+}
+.image {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.attribution {
+    margin-top: 20pt;
+}
+.inline {
+    display: flex;
+    display: inline-flex;
+    justify-items: space-between;
+    margin-top: 10px;
+    padding: 10px;
+}
+.attribution a {
+    color:coral;
+    text-decoration: none;
+}
+a:hover {
+    color:deeppink;
+    cursor: pointer;
+}
